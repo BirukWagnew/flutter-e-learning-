@@ -1,0 +1,280 @@
+{
+  "courses": [
+    {
+      "id": "course_flutter_mastery",
+      "title": "Flutter & Dart Mobile Engineering",
+      "description": "Master cross-platform mobile app development with Flutter 3. Learn reactive UI, clean architecture, offline storage, and production-ready video playback.",
+      "instructor": "Biruk Teklu",
+      "instructorTitle": "Lead Mobile Architect at Abyssinia Tech",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "accentColor": "#6366F1",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "rating": 4.9,
+      "totalDuration": "48m 20s",
+      "chapters": [
+        {
+          "id": "fl_chap_1",
+          "title": "Module 1: Flutter Fundamentals & Clean UI",
+          "description": "Widget trees, stateful vs stateless, responsive layout architecture, and Material 3 design.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "fl_less_1_1",
+              "title": "1.1 Introduction to Reactive Widgets & State",
+              "duration": "05:12",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/person-bicycle-car-detection.mp4",
+              "description": "Deep dive into Flutter rendering pipeline, element trees, and reactive state updates.",
+              "order": 1
+            },
+            {
+              "id": "fl_less_1_2",
+              "title": "1.2 Designing Custom Components & Themes",
+              "duration": "06:45",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/face-demographics-walking-and-pause.mp4",
+              "description": "Building reusable design tokens, typography, gradients, and polished glassmorphic surfaces.",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "fl_chap_2",
+          "title": "Module 2: State Management & Offline Caching",
+          "description": "Clean data layer, Provider architecture, local persistence, and background downloads.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "fl_less_2_1",
+              "title": "2.1 Provider Architecture & Repository Pattern",
+              "duration": "08:14",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/classroom.mp4",
+              "description": "Separation of concerns between UI views, ViewModels, and data repositories.",
+              "order": 1
+            },
+            {
+              "id": "fl_less_2_2",
+              "title": "2.2 Local Video Storage & Offline Playback",
+              "duration": "07:30",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/people-detection.mp4",
+              "description": "Handling byte-stream downloads, caching files on local disk, and playing without network.",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "fl_chap_3",
+          "title": "Module 3: Production Readiness & Optimization",
+          "description": "Memory profiling, battery efficiency, release APK builds, and submission guidelines.",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "fl_less_3_1",
+              "title": "3.1 Memory Profiling & Video Controller Cleanup",
+              "duration": "05:50",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bottle-detection.mp4",
+              "description": "Preventing memory leaks, controller disposal, and smooth 60fps scrolling performance.",
+              "order": 1
+            },
+            {
+              "id": "fl_less_3_2",
+              "title": "3.2 Building Signed Release APKs",
+              "duration": "06:15",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/head-pose-face-detection-female-and-male.mp4",
+              "description": "Gradle build optimization, ProGuard shrinking, and APK distribution best practices.",
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course_fullstack_cloud",
+      "title": "Full-Stack Cloud & Microservices",
+      "description": "Build high-throughput REST and gRPC backend microservices with Docker, Kubernetes, and PostgreSQL for enterprise cloud workloads.",
+      "instructor": "Abebe Kebede",
+      "instructorTitle": "Cloud Infrastructure Specialist",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+      "accentColor": "#0EA5E9",
+      "category": "Cloud & DevOps",
+      "level": "Advanced",
+      "rating": 4.85,
+      "totalDuration": "36m 40s",
+      "chapters": [
+        {
+          "id": "cloud_chap_1",
+          "title": "Module 1: REST & gRPC API Engineering",
+          "description": "Modern API design protocols, rate limiting, and structured logging.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "cloud_less_1_1",
+              "title": "1.1 Microservice Architecture Fundamentals",
+              "duration": "07:20",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/driver-action-recognition.mp4",
+              "description": "Decomposing monoliths into decoupled, resilient microservices.",
+              "order": 1
+            },
+            {
+              "id": "cloud_less_1_2",
+              "title": "1.2 High Performance gRPC Streaming",
+              "duration": "08:10",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/car-detection.mp4",
+              "description": "Protobuf serialization, HTTP/2 multiplexing, and bi-directional streaming.",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "cloud_chap_2",
+          "title": "Module 2: Containerization & Cloud Orchestration",
+          "description": "Multi-stage Docker builds, Kubernetes pods, and CI/CD automation.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "cloud_less_2_1",
+              "title": "2.1 Docker Packaging & Security Best Practices",
+              "duration": "09:30",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/person-bicycle-car-detection.mp4",
+              "description": "Slim base images, non-root users, vulnerability scanning, and caching layers.",
+              "order": 1
+            },
+            {
+              "id": "cloud_less_2_2",
+              "title": "2.2 Kubernetes Deployment & Load Balancing",
+              "duration": "11:40",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/face-demographics-walking-and-pause.mp4",
+              "description": "Ingress controllers, auto-scaling, health checks, and rolling rollouts.",
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course_uiux_design",
+      "title": "Mobile UI/UX Design Systems",
+      "description": "Create intuitive, accessible, and breathtaking digital experiences. Learn color theory, typographic hierarchy, micro-interactions, and design tokens.",
+      "instructor": "Sara Mengistu",
+      "instructorTitle": "Principal Product Designer",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      "accentColor": "#EC4899",
+      "category": "Design & UX",
+      "level": "Beginner to Pro",
+      "rating": 4.95,
+      "totalDuration": "31m 15s",
+      "chapters": [
+        {
+          "id": "ui_chap_1",
+          "title": "Module 1: Design Tokens & Layout Architecture",
+          "description": "Color contrast, accessible typography, 8pt spatial grid, and visual balance.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "ui_less_1_1",
+              "title": "1.1 The Anatomy of High-Converting Mobile UIs",
+              "duration": "06:15",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/classroom.mp4",
+              "description": "Visual weight, scan patterns (F & Z patterns), and call-to-action placement.",
+              "order": 1
+            },
+            {
+              "id": "ui_less_1_2",
+              "title": "1.2 Designing Scalable Design Systems",
+              "duration": "08:45",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/people-detection.mp4",
+              "description": "Creating reusable atomic design components: buttons, inputs, modals, and sheets.",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "ui_chap_2",
+          "title": "Module 2: Micro-Interactions & Motion Design",
+          "description": "Delightful animations, haptic cues, transitions, and gesture navigation.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "ui_less_2_1",
+              "title": "2.1 Micro-Animations that Delight Users",
+              "duration": "07:55",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bottle-detection.mp4",
+              "description": "Spring curves, button morphs, skeleton loading states, and feedback loops.",
+              "order": 1
+            },
+            {
+              "id": "ui_less_2_2",
+              "title": "2.2 Accessibility & Contrast Standards (WCAG 2.2)",
+              "duration": "08:20",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/head-pose-face-detection-female-and-male.mp4",
+              "description": "Screen reader support, minimum touch targets (48x48dp), and accessible colors.",
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course_algorithms_cs",
+      "title": "Data Structures & Algorithmic Thinking",
+      "description": "Conquer technical coding interviews and develop blazing-fast software. Deep dive into trees, graphs, dynamic programming, and complexity analysis.",
+      "instructor": "Dr. Dawit Haile",
+      "instructorTitle": "Computer Science Professor & Algorithmist",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "accentColor": "#10B981",
+      "category": "Computer Science",
+      "level": "All Levels",
+      "rating": 4.92,
+      "totalDuration": "42m 10s",
+      "chapters": [
+        {
+          "id": "algo_chap_1",
+          "title": "Module 1: Trees, Graphs & Memory Layout",
+          "description": "Binary search trees, heap structures, and graph traversal paradigms.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "algo_less_1_1",
+              "title": "1.1 Graph Traversals: BFS vs DFS in Practice",
+              "duration": "09:50",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/driver-action-recognition.mp4",
+              "description": "Adjacency lists, shortest path algorithms, cycle detection, and memory footprints.",
+              "order": 1
+            },
+            {
+              "id": "algo_less_1_2",
+              "title": "1.2 Self-Balancing Trees & Priority Queues",
+              "duration": "10:15",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/car-detection.mp4",
+              "description": "AVL rotations, Red-Black invariant logic, and priority queue implementations.",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "algo_chap_2",
+          "title": "Module 2: Dynamic Programming & Greedy Strategies",
+          "description": "Optimal substructure, memoization tables, bottom-up tabulation, and space compression.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "algo_less_2_1",
+              "title": "2.1 Memoization vs Tabulation Masterclass",
+              "duration": "10:45",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/person-bicycle-car-detection.mp4",
+              "description": "Overcoming recursion stack limits with state transition tables.",
+              "order": 1
+            },
+            {
+              "id": "algo_less_2_2",
+              "title": "2.2 Knapsack & Interval Scheduling Optimization",
+              "duration": "11:20",
+              "videoUrl": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/face-demographics-walking-and-pause.mp4",
+              "description": "Real-world trade-off analysis, greedy proofs, and complexity bounds.",
+              "order": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
